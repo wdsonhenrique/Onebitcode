@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpaceX</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="./index.html">
+          <img src="/modulo-HTML5/criando-site/img/logo.png" />
+        </a>
+        <a href="/modulo-HTML5/criando-site/spaceship.html">| The Spaceships</a>
+        <a href="/modulo-HTML5/criando-site/hire_us.html">| Hire Us</a>
+      </nav>
+    </header>
+    <hr />
+
+    <h2>Hire Us Now</h2>
+    <p>
+      Leave a message to request one of our services and we get back to you as
+      soon as possible.
+    </p>
+    <br />
+    <section>
+      <form>
+        <div>
+          <div>
+            <label for="fname">Name:</label>
+            <input type="text" id="fname" name="fname" /> -
+            <label for="fmail">E-mail:</label>
+            <input type="email" id="fmail" name="fmail" required />
+          </div>
+          <br />
+          <div>
+            <label for="fspaceship">Spaceship:</label>
+            <select name="fspaceship" id="fspaceship">
+              <option value="falcon9">Falcon 9</option>
+              <option value="falconheavy">Falcon Heavy</option>
+            </select>
+            |
+            <label for="fsearch">Type of Service:</label>
+            <input type="search" id="fsearch" name="fsearch" list="services" />
+            <datalist id="services">
+              <option value="Orbital"></option>
+              <option value="Rocket launch">Rocket launch</option>
+              <option value="Satellite internet"></option>
+              <option value="Clothes"></option>
+            </datalist>
+          </div>
+        </div>
+        <br />
+        <input type="submit" value="Send Message" />
+      </form>
+    </section>
+  </body>
+</html>
