@@ -1,1 +1,27 @@
-/*Recriando site com CSS #2*/
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  background-color: #fdfac7;
+  width: 90%;
+  height: 100%;
+}
+
+.date {
+  font-family: "Roboto", sans-serif;
+  color: #008080;
+  padding: 2% 5% 1%;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  padding: 0 5% 1%;
+}
+
+.post-content {
+  font-family: "Open Sans", sans-serif;
+  padding: 0 5% 3%;
+}
