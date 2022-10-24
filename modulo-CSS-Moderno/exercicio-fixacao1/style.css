@@ -1,0 +1,46 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  width: 100vw;
+  height: 14vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img-container-icon {
+  height: 45%;
+  width: 4%;
+}
+
+.img-container-logo {
+  height: 45%;
+  width: 23%;
+}
+
+.buttons {
+  display: flex;
+  gap: 20%;
+}
+
+.button-header {
+  font-size: 1.1em;
+  padding: 5%;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border-radius: 2px;
+  border: 1px solid red;
+  transition: 0.6s;
+}
+
+.button-header:hover {
+  border-color: white;
+  padding: 8%;
+  border-radius: 5px;
+}
